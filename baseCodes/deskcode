@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="img/favicon.ico"/>
+    <title>Steve Jobs, Hero?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <script src="js/script.js"></script>
+    <script type="text/javascript">
+        if (screen.width <= 699) {
+        document.location = "mobile.html";
+        }
+        </script>
+    <!--This part says that if the device is a mobile to redirect it to the following page mobile.html-->
+    <div id="menu">
+        <div class="logo">
+                <a href="index.html"><img src="img/logo.png" alt="logo is here" width="220" height="61"></a>
+                <!-- The logo should be 118px width and 38px height -->
+        </div>
+        <nav>
+            <ul>
+                <div class="menuFont">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="quotes.html">QUOTES</a></li>
+                    <li><a href="biography.html">BIOGRAPHY</a></li>
+                    <li><a href="sources.html">SOURCES</a></li>
+                    <li><a href="videos.html">VIDEOS</a></li>
+                    <li><a href="devices.html">DEVICES</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                </div>
+            </ul>    
+        </nav>
+    </div>
+</head>
+<body>
+    <div class="header">
+
+    </div>
+    <div class="contentA">
+        <div class="textA">
+            <h2></h2>
+            <p></p>
+                    </div>
+    </div>
+    </div>
+    <!--Please write the content between the <p>tags</p>-->
+    <div class="contentB">
+
+        <div class="textB">
+            <div class="columnB">
+                <h3></h3>
+                    <p></p>
+            </div>
+            <!--Please write the content between the <p>tags</p>-->
+            <div class="columnB">
+                    <h3></h3>
+                        <p></p>
+
+            </div>
+            <!--Please write the content between the <p>tags</p>-->
+        </div>
+    
+    </div>
+    <div class="contentC">
+        
+        <div class="textC">
+                <p></p>
+        </div>
+        <!--Please write the content between the <p>tags</p>-->
+    
+    </div>
+</body>
+</html>

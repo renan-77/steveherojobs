@@ -1,0 +1,354 @@
+html, body{
+  height: 100%;
+  margin: 0 auto;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #f1f1f1;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+
+  color: #223f7e;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  color: white;
+}
+
+a {
+
+  text-decoration: none;
+  color: #f1f1f1;
+  font-weight: bold;
+
+}
+
+.menuFont {
+
+  font-size: 1.2em;
+
+}
+
+.header{
+
+  height: 7%;
+
+}
+
+h2 {
+
+  text-align: center;
+
+}
+
+h3 {
+
+  text-align: center;
+
+}
+
+.renanPic{
+
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+
+
+}
+
+.appleWebsite{
+
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+
+}
+
+.video{
+
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+
+}
+
+.contentA{
+
+
+  height: 100%;
+  top: 100%;
+  text-align: center;
+
+}
+
+.pageTitle {
+
+  text-align: center;
+
+}
+
+.topic {
+
+  font-weight: bold;
+  font-size: 1.6em; 
+
+}
+
+.contentMobileA{
+
+  top: 100%;
+
+}
+
+.contentAQuotes{
+
+  height: 100%;
+  top: 100%;
+  text-align: center;
+  margin-top: 8%;
+
+}
+
+.seeMore{
+
+  text-align: center;
+
+}
+
+.jobsQuotes{
+
+  display: block;
+  margin: 0 auto;
+
+}
+
+.columnA{
+
+  display: block;
+  display: inline-block;
+  margin: 0 auto;
+  width: 32%;
+  text-align: justify;
+  padding-left: 2%;
+  padding-top: 6%;
+  position: relative;
+
+}
+
+.imageIntroduction{
+
+  display: block;
+  margin: 0 auto;
+  margin-top: 5%;
+
+}
+
+
+
+.textA{
+
+  height: 80%;
+  top: 100%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: justify;
+  padding: 2%;
+
+}
+
+.contentB{
+
+  top: 100%;
+  background: rgba(45, 45, 45, 0.8);
+  text-align: justify;
+
+}
+
+.contentMobileB{
+
+  top:100%;
+  background: rgba(45, 45, 45, 0.8);
+  text-align: justify;
+
+}
+
+
+
+.textB{
+
+  height: 80%;
+  top: 100%;
+  margin: 0 auto;
+  width: 80%;
+  text-align:center;
+  padding: 2%;
+
+}
+
+.textBMobile{
+
+  height: 80%;
+  top: 100%;
+  margin: 0 auto;
+  width: 80%;
+  text-align:justify;
+  padding: 2%;
+
+}
+
+.columnB{
+  
+  padding: 2%;
+  display: block;
+  display: inline-block;
+  top: 100%;
+  width: 40%;
+  text-align: justify;
+
+}
+
+.afterColumns {
+
+    text-align: justify;
+    font-size: 1em;
+
+}
+
+
+
+.contentC{
+  top: 100%;
+}
+
+.contentMobileC{
+
+  top: 100%;
+
+}
+
+.textC{
+
+
+  height: 80%;
+  top: 100%;
+  margin: 0 auto;
+  width: 80%;
+  text-align: justify;
+  padding: 2%;
+
+
+
+}
+
+.logo{
+
+ position: fixed;
+ margin: 1%;
+}
+.upButton{
+  padding: 2%;
+  margin-right: 2%;
+  margin-top: 98%;
+  position: fixed;
+
+}
+
+.downButton{
+
+  margin-right: 98%;
+  margin-top: 98%;
+  position: fixed;
+
+}
+
+
+li a{
+
+  text-decoration: none;
+  color: #f1f1f1;
+  font-weight: bold;
+
+}
+
+nav {
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    position: fixed;
+    color: #f1f1f1;
+  }
+  
+  nav ul {
+    text-align: right;
+    margin-right: 7%;
+  }
+  
+  nav ul li {
+   display: inline-block;
+   padding: 0 1em;
+   line-height: 3em;
+
+  }
+  
+  nav ul li a:hover {
+    color: #00939C;
+  }
+
+  .foot{
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    bottom: 0%;
+    position: relative;
+
+  }
+
+  .footDevice{
+
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    bottom: 0%;
+    position: fixed;
+
+  }
